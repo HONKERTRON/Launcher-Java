@@ -73,7 +73,7 @@ public class Frame extends JFrame implements ActionListener, FocusListener
         public static Button s1 = new Button(Message.s1);
         public static Button s2 = new Button(Message.s2);
         public static Button s3 = new Button(Message.s3);
-	public static Button server1 = new Button("HT", "HT");
+	public static Button server1 = new Button("");
 	public static Button server2 = new Button("Lords Of Rings");
 	public static Button server3 = new Button("MagicRPG");
 	public static Button server4 = new Button("");

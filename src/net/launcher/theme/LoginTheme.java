@@ -17,7 +17,7 @@ public class LoginTheme
 {
 	public static int frameW = 1024; 
 	public static int frameH = 644;
-          public static ButtonStyle server1 = new ButtonStyle(600, 135, 204, 50, "font", "", 16.0F, Color.decode("0x000000"), true, Align.LEFT);
+          public static ButtonStyle server1 = new ButtonStyle(405, 190, 199, 113, "font", "HT", 16.0F, Color.decode("0x000000"), true, Align.LEFT);
   public static ButtonStyle server2 = new ButtonStyle(600, 217, 204, 50, "font", "", 16.0F, Color.decode("0x000000"), true, Align.LEFT);
   public static ButtonStyle server3 = new ButtonStyle(600, 304, 204, 50, "font", "", 16.0F, Color.decode("0x000000"), true, Align.LEFT);
   public static ButtonStyle server4 = new ButtonStyle(800, 135, 357, 50, "font", "", 16.0F, Color.decode("0x000000"), true, Align.LEFT);

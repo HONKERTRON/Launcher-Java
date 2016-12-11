@@ -18,6 +18,7 @@ import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import net.launcher.MusPlay;
 import net.launcher.run.Settings;
+import net.launcher.utils.BaseUtils;
 import net.launcher.utils.ImageUtils;
 
 public class Button extends JButton implements MouseListener, MouseMotionListener {
@@ -48,16 +49,11 @@ public Button(String text, String img) {
 	setContentAreaFilled(false);
 	setFocusPainted(false);
 	setFocusable(false);
-	setOpaque(false);
+	setOpaque(true);
 	setCursor(Cursor.getPredefinedCursor(12));
-	setIcon(new ImageIcon(img + ".png"));
-	try {
-		defaultTX = ImageIO.read(new File(img + ".png"));
-		pressedTX = ImageIO.read(new File(img + "_p.png"));
-	} catch (IOException e) {
-		e.printStackTrace();
-		System.out.println("HONKER, HEY");
-	}
+	defaultTX = BaseUtils.getLocalImage("HT");
+	pressedTX = BaseUtils.getLocalImage("HT_p");
+	
 }
 
 protected void paintComponent(Graphics maing) {
