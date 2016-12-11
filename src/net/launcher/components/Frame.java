@@ -492,7 +492,7 @@ public class Frame extends JFrame implements ActionListener, FocusListener
 
 		if(e.getSource() == toLogout)
 		{       
-			server1.setVisible(false);
+			server1.setVisible(true);
 			server2.setVisible(false);
 			server3.setVisible(false);
 			server4.setVisible(false);

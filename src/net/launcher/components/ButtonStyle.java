@@ -32,6 +32,8 @@ public class ButtonStyle
 		this.visible = visible;
 		this.align = align;
 		this.texture = BaseUtils.getLocalImage(texture);
+		if (texture == "")
+			this.texture = BaseUtils.getLocalImage("button");
 	}
 	
 	public void apply(Button button)
