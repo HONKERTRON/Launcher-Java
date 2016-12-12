@@ -785,7 +785,7 @@ public class Frame extends JFrame implements ActionListener, FocusListener
 			buyUnban.setEnabled(false);
 		}
 
-		panel.add(toGamePersonal);
+		//panel.add(toGamePersonal);
                 panel.add(s1);
                 panel.add(s2);
                 panel.add(s3);

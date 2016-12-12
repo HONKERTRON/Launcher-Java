@@ -17,7 +17,7 @@ public class LoginTheme
 {
 	public static int frameW = 1024; 
 	public static int frameH = 644;
-          public static ButtonStyle server1 = new ButtonStyle(405, 190, 199, 113, "font", "HT", 16.0F, Color.decode("0x000000"), true, Align.LEFT);
+  public static ButtonStyle server1 = new ButtonStyle(405, 190, 199, 113, "font", "HT", 16.0F, Color.decode("0x000000"), true, Align.LEFT);
   public static ButtonStyle server2 = new ButtonStyle(600, 217, 204, 50, "font", "", 16.0F, Color.decode("0x000000"), true, Align.LEFT);
   public static ButtonStyle server3 = new ButtonStyle(600, 304, 204, 50, "font", "", 16.0F, Color.decode("0x000000"), true, Align.LEFT);
   public static ButtonStyle server4 = new ButtonStyle(800, 135, 357, 50, "font", "", 16.0F, Color.decode("0x000000"), true, Align.LEFT);
@@ -29,11 +29,11 @@ public class LoginTheme
   public static ServerbarStyle serverbar4 = new ServerbarStyle(800, 171, 100, 16, "font", 15.0F, Color.decode("0xFFFFFF"), true);
   public static ServerbarStyle serverbar5 = new ServerbarStyle(800, 254, 100, 16, "font", 15.0F, Color.decode("0xFFFFFF"), true);
   public static ServerbarStyle serverbar6 = new ServerbarStyle(800, 339, 100, 16, "font", 15.0F, Color.decode("0xFFFFFF"), true);
-	public static ButtonStyle	 toAuth	     = new ButtonStyle(123, 385, 180, 47, "font", "button", 16F, Color.decode("0xd4dc7b"), true, Align.CENTER);
-	public static ButtonStyle	 toLogout    = new ButtonStyle(138, 428, 150, 47, "font", "button", 16F, Color.decode("0xd4dc7b"), true, Align.CENTER);
+	public static ButtonStyle	 toAuth	     = new ButtonStyle(96, 345, 245, 91, "font", "togame", 16F, Color.decode("0xd4dc7b"), true, Align.CENTER);
+	public static ButtonStyle	 toLogout    = new ButtonStyle(96, 436, 245, 36, "font", "exit", 16F, Color.decode("0xd4dc7b"), true, Align.CENTER);
 	
-	public static ButtonStyle	 toGame	     = new ButtonStyle(462, 307, 195, 64, "font", "togame", 16F, Color.decode("0xd4dc7b"), true, Align.CENTER);
-	public static ButtonStyle	 toPersonal  = new ButtonStyle(123, 385, 195, 64, "font", "togame", 16F, Color.decode("0xd4dc7b"), true, Align.CENTER);
+	public static ButtonStyle	 toGame	     = new ButtonStyle(462, 307, 180, 47, "font", "button", 16F, Color.decode("0xd4dc7b"), true, Align.CENTER);
+	public static ButtonStyle	 toPersonal  = new ButtonStyle(96, 345, 245, 91, "font", "togame", 16F, Color.decode("0xd4dc7b"), true, Align.CENTER);
 	public static ButtonStyle	 toOptions   = new ButtonStyle(396, 307, 150, 47, "font", "button", 16F, Color.decode("0xd4dc7b"), true, Align.CENTER);
 	public static ButtonStyle	 toRegister  = new ButtonStyle(296, 367, 150, 47, "font", "button", 16F, Color.decode("0xd4dc7b"), true, Align.CENTER);
 	
